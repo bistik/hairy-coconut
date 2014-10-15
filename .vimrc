@@ -28,6 +28,9 @@ inoremap <c-d> <esc>ddi
 " UPPERcase current word
 inoremap <c-u> <esc>viwU<esc>i
 
+" lowercase current word
+inoremap <c-u> <esc>viwu<esc>i
+
 " edit & source vimrc
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
